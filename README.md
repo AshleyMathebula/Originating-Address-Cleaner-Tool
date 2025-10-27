@@ -72,17 +72,20 @@ Build **Originating-Address-Cleaner-Tool** from source and install dependencies.
 
    ```bash
    git clone https://github.com/AshleyMathebula/Originating-Address-Cleaner-Tool
-Navigate to the project directory:
+   
+2. **Navigate to the project directory:**
 
 bash
 Copy code
 cd Originating-Address-Cleaner-Tool
-Install the dependencies:
+
+3. **Install the dependencies:**
 
 bash
 Copy code
 pip install -r requirements.txt
-▶️ Usage
+
+## ▶️ Usage
 Run the tool to execute the complete ETL pipeline:
 
 bash
@@ -104,7 +107,7 @@ regex 1,1,ABC123
 regex 1,1,XYZ[0-9]*
 regex 1,1,DEF001
 
-🧾 Logging
+## 🧾 Logging
 
 All tool activities are logged both to console and file (logs/activity.log):
 
@@ -124,6 +127,6 @@ Example Log:
 2025-10-27 | INFO | Found 12 duplicate(s)
 2025-10-27 | SUCCESS | Cleaned addresses written to output/cleaned_addresses.txt
 
-🪪 License
+## 🪪 License
 
 This project is developed and maintained by Ashley Mathebula.
