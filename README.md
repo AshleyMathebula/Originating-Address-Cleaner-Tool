@@ -75,29 +75,30 @@ Build **Originating-Address-Cleaner-Tool** from source and install dependencies.
    
 2. **Navigate to the project directory:**
 
-bash
-Copy code
-cd Originating-Address-Cleaner-Tool
+    bash
+    Copy code
+    cd Originating-Address-Cleaner-Tool
 
 3. **Install the dependencies:**
 
-bash
-Copy code
-pip install -r requirements.txt
+    bash
+    Copy code
+    pip install -r requirements.txt
 
 ## ▶️ Usage
 Run the tool to execute the complete ETL pipeline:
 
-bash
-Copy code
-python main.py
-Default paths:
+    bash
+    Copy code
+    python main.py
+    
+-- Default paths:
 
-Input: data/input_addresses.txt
-
-Output: output/cleaned_addresses.txt
-
-Logs: logs/activity.log
+    Input: data/input_addresses.txt
+    
+    Output: output/cleaned_addresses.txt
+    
+    Logs: logs/activity.log
 
 Example output:
 
@@ -113,19 +114,19 @@ All tool activities are logged both to console and file (logs/activity.log):
 
 Log Levels:
 
-[INFO] General information (file loaded, steps completed)
-
-[SUCCESS] Successful operations
-
-[WARN] Skipped or invalid data entries
-
-[ERROR] File or runtime errors
+    [INFO] General information (file loaded, steps completed)
+    
+    [SUCCESS] Successful operations
+    
+    [WARN] Skipped or invalid data entries
+    
+    [ERROR] File or runtime errors
 
 Example Log:
 
-2025-10-27 | INFO | Loaded 534 addresses from data/input_addresses.txt
-2025-10-27 | INFO | Found 12 duplicate(s)
-2025-10-27 | SUCCESS | Cleaned addresses written to output/cleaned_addresses.txt
+    2025-10-27 | INFO | Loaded 534 addresses from data/input_addresses.txt
+    2025-10-27 | INFO | Found 12 duplicate(s)
+    2025-10-27 | SUCCESS | Cleaned addresses written to output/cleaned_addresses.txt
 
 ## 🪪 License
 
