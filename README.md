@@ -98,6 +98,7 @@ Default paths:
     Logs: logs/activity.log
 
 Example output:
+
     regex 1,1,ABC123
     regex 1,1,XYZ[0-9]*
     regex 1,1,DEF001
