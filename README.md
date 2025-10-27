@@ -75,24 +75,21 @@ Build **Originating-Address-Cleaner-Tool** from source and install dependencies.
    
 2. **Navigate to the project directory:**
 
-    bash
-    Copy code
+    ```bash
     cd Originating-Address-Cleaner-Tool
 
 3. **Install the dependencies:**
 
-    bash
-    Copy code
+    ```bash
     pip install -r requirements.txt
 
 ## ▶️ Usage
 Run the tool to execute the complete ETL pipeline:
 
     bash
-    Copy code
     python main.py
     
--- Default paths:
+Default paths:
 
     Input: data/input_addresses.txt
     
@@ -101,12 +98,9 @@ Run the tool to execute the complete ETL pipeline:
     Logs: logs/activity.log
 
 Example output:
-
-css
-Copy code
-regex 1,1,ABC123
-regex 1,1,XYZ[0-9]*
-regex 1,1,DEF001
+    regex 1,1,ABC123
+    regex 1,1,XYZ[0-9]*
+    regex 1,1,DEF001
 
 ## 🧾 Logging
 
