@@ -1,6 +1,6 @@
 # ORIGINATING-ADDRESS-CLEANER-TOOL
 
-*Streamline Addresses, Accelerate Success, Ensure Precision.*
+*Streamline Addresses cleaning, Accelerate Success, Ensure Precision.*
 
 ![Last Commit](https://img.shields.io/github/last-commit/AshleyMathebula/Originating-Address-Cleaner-Tool?color=blue)
 ![Python](https://img.shields.io/badge/python-100%25-blue)
@@ -8,7 +8,7 @@
 
 ---
 
-### Built with the tools and technologies:
+### Built:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 
